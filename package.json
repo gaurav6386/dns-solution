@@ -1,0 +1,46 @@
+{
+  "name": "mtasts-solution",
+  "version": "0.0.1",
+  "description": "This package allows you to fetch and parse MTA-STS & DMARC record for your domain.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav6386/dns-solution.git"
+  },
+  "keywords": [
+    "dmarc",
+    "dkim",
+    "email",
+    "mail",
+    "spf",
+    "record",
+    "parser",
+    "txt",
+    "dns",
+    "generator",
+    "report"
+  ],
+  "author": "Gaurav Pandey",
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "Gaurav Pandey",
+      "email": "gauravpandey75281@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "email-validator": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/dns-packet": "^5.2.4",
+    "@types/node": "^18.11.7"
+  }
+}
