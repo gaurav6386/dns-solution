@@ -1,5 +1,5 @@
 {
-  "name": "mtasts-solution",
+  "name": "dns-solution",
   "version": "0.0.1",
   "description": "This package allows you to fetch and parse MTA-STS & DMARC record for your domain.",
   "main": "build/index.js",
